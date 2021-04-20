@@ -64,9 +64,9 @@ A window handle to the control sending the message.
 
 ### -field idFrom
 
-Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT_PTR</a></b>
 
-An identifier of the control sending the message.
+An identifier of the control sending the message, or a window handle if an enclosing NMTTDISPINFO's TTF_IDISHWND is set.
 
 ### -field code
 
